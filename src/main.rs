@@ -4,7 +4,6 @@ use serde::{Deserialize, Serialize};
 use sqlx::postgres::PgPoolOptions;
 use sqlx::PgPool;
 use std::path::PathBuf;
-use tokio;
 
 #[derive(Parser)]
 #[command(name = "hlps")]
