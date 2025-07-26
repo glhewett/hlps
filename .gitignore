@@ -27,3 +27,6 @@ target
 
 # PostgreSQL password files
 .pgpass
+
+# Cargo lock file
+Cargo.lock
