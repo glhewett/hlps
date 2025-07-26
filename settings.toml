@@ -1,0 +1,6 @@
+[remote_database]
+host = "localhost"
+user = "postgres"
+port = 5432
+pgpass_path = "~/.pgpass"
+database = "postgres"
