@@ -1,0 +1,11 @@
+[package]
+name = "hlps"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.41", features = ["derive"] }
+config = "0.15.13"
+serde = { version = "1.0.219", features = ["derive"] }
+sqlx = { version = "0.8.6", features = ["runtime-tokio-rustls", "postgres"] }
+tokio = { version = "1.46.1", features = ["full"] }
