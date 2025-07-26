@@ -47,8 +47,8 @@ cargo build --release
 
 ## Dependencies
 
-- sqlx with PostgreSQL support
-- tokio for async runtime
-- clap for command line parsing
-- config for TOML configuration reading
-- serde for serialization/deserialization
+- [sqlx](https://crates.io/crates/sqlx) with PostgreSQL support
+- [tokio](https://crates.io/crates/tokio) for async runtime
+- [clap](https://crates.io/crates/clap) for command line parsing
+- [config](https://crates.io/crates/config) for TOML configuration reading
+- [serde](https://crates.io/crates/serde) for serialization/deserialization
